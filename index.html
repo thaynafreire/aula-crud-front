@@ -15,12 +15,45 @@
     <header>
         <img src="./img/logo-senai.png" alt="logo senai">
         <input type="text" id="nome-contato" placeholder="Digite o nome do contato">
-        <button id="novo-contato">Criar Contato</button>
+        <button class="button" id="novo-contato">Criar Contato</button>
     </header>
     <main>
         <div class="container" id="container">
 
         </div>
+        <form>
+            <div class="preview">
+                <input class="preview-input" id = "foto" type="file" accept="image/*">
+                <label class = "preview-label" for="foto"></label>
+                <img src="" class="preview-image" id="preview-image">
+            </div>
+            <div class="input">
+                <label>Nome</label>
+                <input type="text" class="input-text" id="nome">
+            </div>
+            <div class="input">
+                <label>E-mail</label>
+                <input type="text" class="input-text" id="email">
+            </div>
+            <div class="input">
+                <label>Celular</label>
+                <input type="text" class="input-text" id="celular">
+            </div>
+            <div class="input">
+                <label>Endereço</label>
+                <input type="text" class="input-text" id="endereco">
+            </div>
+            <div class="input">
+                <label>Cidade</label>
+                <input type="text" class="input-text" id="cidade">
+            </div>
+            <div class="button-container">
+                <button type="button" class="button" id="editar">Editar</button>
+                <button type="button" class="button" id="deletar">Deletar</button>
+                <button type="button" class="button" id="salvar">Salvar</button>
+                <button type="button" class="button" id="cancelar">Cancelar</button>
+            </div>
+        </form>
     </main>
     
 </body>

@@ -48,6 +48,7 @@ header button{
     background-color: #bb1829;
     border-radius: 12px;
     color: white;
+    cursor: pointer;
 
 }
 
@@ -76,3 +77,65 @@ header button{
     gap: 32px;
     flex-wrap: wrap;
 }
+
+form {
+    width: 80%;
+    margin: auto;
+    padding: 32px;
+    display: none;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.preview{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #bb1829;
+    overflow: hidden;
+}
+
+.preview-input{
+    display: none;
+}
+
+.preview-label{
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.preview-image{
+    width: 100%;
+    height: 100%;
+}
+
+.input-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.input{
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.input-text{
+    height: 32px;
+    border: 2px solid #bb1829;
+    outline: none;
+    padding-left: 16px;
+}
+
+.button-container{
+    min-width: 100px;
+    display: flex;
+    justify-content: space-evenly ;
+    
+}
+

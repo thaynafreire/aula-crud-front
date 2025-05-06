@@ -59,5 +59,6 @@ async function deleteContato(id, ) {
     return response.ok
 }
 
+
 //json para exportar funções
 getContatos()
